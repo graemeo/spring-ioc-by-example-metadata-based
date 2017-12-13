@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.ApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-13T06:54:56" hostname="Graemes-MBP" time="0.323">
+<testsuite name="example.ApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-13T07:34:15" hostname="Graemes-MBP" time="0.329">
   <properties/>
-  <testcase name="shouldInitialiseApplicationContext" classname="example.ApplicationTest" time="0.323"/>
+  <testcase name="shouldInitialiseApplicationContext" classname="example.ApplicationTest" time="0.329"/>
   <system-out><![CDATA[###### Application Context ID: org.springframework.context.support.ClassPathXmlApplicationContext@31f79991
-###### Start Up Date: 1513148096728
-###### List of Beans: [superman, wonderwoman]
+###### Start Up Date: 1513150455121
+###### List of Beans: [superman, wonderwoman, superpowers]
+###### Superman's ability: Superhuman strength!
+###### Superman's partner in crime ability (before transformation): Agility!
+###### Wonderwoman's ability: Agility!
+###### Wonderwoman's ability has been transformed to: Speeeeeeeeeeeeed
+###### Superman's partner in crime ability (after transformation): Speeeeeeeeeeeeed
 ]]></system-out>
-  <system-err><![CDATA[Dec 13, 2017 2:54:56 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
-INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31f79991: startup date [Wed Dec 13 14:54:56 AWST 2017]; root of context hierarchy
-Dec 13, 2017 2:54:56 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+  <system-err><![CDATA[Dec 13, 2017 3:34:15 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31f79991: startup date [Wed Dec 13 15:34:15 AWST 2017]; root of context hierarchy
+Dec 13, 2017 3:34:15 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
 INFO: Loading XML bean definitions from class path resource [spring-context.xml]
 ]]></system-err>
 </testsuite>

@@ -5,7 +5,13 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
    <bean id="superman" class="example.Superman">
       <constructor-arg ref="wonderwoman"/>
+      <property name="superpowers" ref="superpowers"/>
    </bean>
 
-   <bean id="wonderwoman" class="example.Wonderwoman"/>
+   <bean id="wonderwoman" class="example.Wonderwoman">
+      <property name="superpowers" ref="superpowers"/>
+   </bean>
+
+   <bean id="superpowers" class="example.Superpowers"/>
+
 </beans>
