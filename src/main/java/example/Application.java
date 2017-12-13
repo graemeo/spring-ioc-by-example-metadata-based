@@ -17,9 +17,7 @@ public class Application {
       Wonderwoman wonderwoman = (Wonderwoman) context.getBean("wonderwoman");
       Superman superman = (Superman) context.getBean("superman");
 
-
       System.out.println("###### Superman's ability: " + superman.showAbility());
-
       System.out.println("###### Superman's partner in crime ability (before transformation): " + superman.showWonderwomansAbility());
 
       System.out.println("###### Wonderwoman's ability: " + wonderwoman.showAbility());
