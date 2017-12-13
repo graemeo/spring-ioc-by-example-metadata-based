@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.ApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-13T06:54:56" hostname="Graemes-MBP" time="0.323">
+  <properties/>
+  <testcase name="shouldInitialiseApplicationContext" classname="example.ApplicationTest" time="0.323"/>
+  <system-out><![CDATA[###### Application Context ID: org.springframework.context.support.ClassPathXmlApplicationContext@31f79991
+###### Start Up Date: 1513148096728
+###### List of Beans: [superman, wonderwoman]
+]]></system-out>
+  <system-err><![CDATA[Dec 13, 2017 2:54:56 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@31f79991: startup date [Wed Dec 13 14:54:56 AWST 2017]; root of context hierarchy
+Dec 13, 2017 2:54:56 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [spring-context.xml]
+]]></system-err>
+</testsuite>
